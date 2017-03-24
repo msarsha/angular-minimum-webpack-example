@@ -1,0 +1,30 @@
+{
+  "name": "angular-minimum-webpack-starter",
+  "version": "0.0.1",
+  "description": "bare-minimum angular webpack starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base dist/",
+    "build": "webpack",
+    "build-verbose": "webpack --display-error-details"
+  },
+  "author": "Matan Sar-Shalom",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.10",
+    "@angular/compiler": "^2.4.10",
+    "@angular/core": "^2.4.10",
+    "@angular/platform-browser": "^2.4.10",
+    "@angular/platform-browser-dynamic": "^2.4.10"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "core-js": "^2.4.1",
+    "html-webpack-plugin": "^2.28.0",
+    "rxjs": "^5.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2",
+    "zone.js": "^0.7.2"
+  }
+}
