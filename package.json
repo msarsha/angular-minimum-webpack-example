@@ -11,11 +11,11 @@
   "author": "Matan Sar-Shalom",
   "license": "MIT",
   "dependencies": {
-    "@angular/common": "^2.4.10",
-    "@angular/compiler": "^2.4.10",
-    "@angular/core": "^2.4.10",
-    "@angular/platform-browser": "^2.4.10",
-    "@angular/platform-browser-dynamic": "^2.4.10"
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.1.2",

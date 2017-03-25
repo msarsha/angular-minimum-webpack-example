@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 @Component({
   selector: 'app-root',
   template: `
-    <div class="app">{{title}}</div>
+    <h1 class="app">{{title}}</h1>
   `,
   styles: [
     `.app{
