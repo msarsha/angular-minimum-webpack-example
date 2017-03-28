@@ -10,6 +10,6 @@ So hopefuly others in the same situation as me could find this example helpful.
 
 ### How to use
 1. Clone
-2. Install - `yarn install`
-3. Build - `yarn run build`
-4. Run - `yarn start`
+2. Install - `yarn install` or `npm install` 
+3. Build - `yarn run build` or `npm run build`
+4. Run - `yarn start` or `npm start`
