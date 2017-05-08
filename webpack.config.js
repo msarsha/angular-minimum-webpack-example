@@ -29,7 +29,8 @@ module.exports = {
       root('./src'), // location of your src
       {}
     )
-  ]
+  ],
+  devServer: { historyApiFallback: true }
 }
 
 function root(__path) {
