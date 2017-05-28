@@ -9,17 +9,17 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   resolve: {
-    extensions: ['.ts', '.js', '.css', '.html']
+    extensions: ['.ts', '.js']
   },
   module: {
     rules: [
       {
         test: /\.ts$/,
-        loader: ['awesome-typescript-loader', 'angular2-template-loader?keepUrl=true']
+        loader: ['awesome-typescript-loader', 'angular2-template-loader']
       },
       {
         test: /\.(css|html)$/,
-        loader: 'file-loader',
+        loader: 'raw-loader',
         exclude: [root('./src/index.html')]
       }
     ]
