@@ -43,7 +43,7 @@ module.exports = {
       //fix for webpack warnings - angular/11580
 
       // The (\\|\/) piece accounts for path separators in *nix and Windows
-      /angular(\\|\/)core(\\|\/)@angular/,
+      /(.+)?angular(\\|\/)core(.+)?/,
       root('./src'), // location of your src
       {}
     )
