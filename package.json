@@ -11,24 +11,24 @@
   "author": "Matan Sar-Shalom",
   "license": "MIT",
   "dependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@types/node": "^7.0.22"
+    "@angular/common": "^5.0.3",
+    "@angular/compiler": "^5.0.3",
+    "@angular/core": "^5.0.3",
+    "@angular/platform-browser": "^5.0.3",
+    "@angular/platform-browser-dynamic": "^5.0.3",
+    "@types/node": "^8.0.53"
   },
   "devDependencies": {
     "angular2-template-loader": "^0.6.2",
-    "awesome-typescript-loader": "^3.1.2",
-    "core-js": "^2.4.1",
-    "html-loader": "^0.4.5",
-    "html-webpack-plugin": "^2.28.0",
+    "awesome-typescript-loader": "^3.4.0",
+    "core-js": "^2.5.1",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
     "raw-loader": "^0.5.1",
-    "rxjs": "^5.0.1",
-    "typescript": "^2.2.1",
-    "webpack": "^2.3.1",
-    "webpack-dev-server": "^2.4.2",
-    "zone.js": "^0.7.2"
+    "rxjs": "^5.5.2",
+    "typescript": "^2.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5",
+    "zone.js": "^0.8.18"
   }
 }
